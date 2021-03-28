@@ -1,0 +1,169 @@
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0 24px;
+    }
+    .description {
+        padding: 0 66px;
+    }
+    /* FONTS */
+    h5 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    /* HEADER */
+    .header-top {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .numbers {
+        display: flex;
+    }
+    .numbers>li {
+        margin-left: 20px;
+    }
+    /* HERO */
+    .hero-wrapper>.container {
+        display: flex;
+    }
+    .hero-description {
+        padding-right: 41px;
+        margin: auto 0;
+    }
+    .hero {
+        text-align: left;
+    }
+    h5.hero {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    h1.hero {
+        font-size: 47px;
+        line-height: 58px;
+    }
+    .cta-wrapper-hero {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    span.price {
+        margin: 0 30px;
+    }
+    .hero-image {
+        max-width: 270px;
+    }
+    /* ABOUT */
+    .about-wrapper>.container {
+        display: flex;
+    }
+    .about-image {
+        max-width: 200px;
+        margin: 0 30px 0 0;
+    }
+    .checkmarks {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    /* FEATURES */
+    .feature-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 30px;
+    }
+    .feature-card {
+        text-align: left;
+    }
+    /* VIDEO */
+    .video-player {
+        font-size: 80px;
+    }
+    /* DISCOUNT */
+    .discount-wrapper {
+        text-align: left;
+    }
+    .discount-wrapper>.container {
+        display: flex;
+    }
+    .discount-wrapper>.container>.description {
+        padding: 0 25px;
+    }
+    .discount.btn {
+        margin: 50px 0;
+    }
+    /* FEEDBACK */
+    .customer-cards {
+        display: flex;
+        margin-top: 50px;
+    }
+    .customer-card {
+        margin: 0 10px;
+    }
+    .customer-card:nth-child(2) {
+        display: flex;
+    }
+    .customer-card:nth-child(3) {
+        display: none;
+    }
+    /* FAQ */
+    .faq-questions-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 30px;
+    }
+    /* WHY OUR PRODUCT */
+    .product-wrapper>.container {
+        display: flex;
+    }
+    .product-wrapper>.container>img {
+        height: 200px;
+        margin: auto 0;
+    }
+    /* PERKS */
+    .perks-card-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto 0;
+    }
+    .perk-card {
+        display: flex;
+    }
+    .perk-icon {
+        width: 80px;
+        height: 55px;
+        font-size: 25px;
+    }
+    .perk-card-text {
+        text-align: left;
+        padding: 0 20px;
+    }
+    /* CONTACT FORM */
+    .contact-content-wrapper {
+        display: flex;
+    }
+    .contact-details-wrapper {
+        margin: 34px 0 0 47px;
+    }
+    /* FOOTER */
+    .footer-content-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+    }
+    .contact-wrapper>.container>.description {
+        text-align: left;
+        padding: 0 207px 0 0;
+    }
+}

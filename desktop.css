@@ -1,0 +1,100 @@
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding: 0 24px;
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+    /* FONTS */
+    h5 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    /* HEADER */
+    .burger {
+        display: none;
+    }
+    .navigation {
+        display: block;
+    }
+    .navigation>ul {
+        display: flex;
+    }
+    .navigation>ul>li>a {
+        color: black;
+        margin: 0 18px;
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.5s all;
+    }
+    .navigation>ul>li>a:hover {
+        color: var(--orange);
+    }
+    .nav-cta {
+        display: flex;
+    }
+    /* HERO */
+    .hero-image {
+        max-width: 445px;
+    }
+    h5.hero {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    h1.hero {
+        font-size: 70px;
+        line-height: 75px;
+    }
+    /* ABOUT */
+    .about-image {
+        max-width: 400px;
+    }
+    /* FEATURES */
+    .feature-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+    }
+    /* VIDEO */
+    .video-player {
+        width: 80%;
+        margin: 50px auto 0 auto;
+    }
+    /* FEEDBACK */
+    .customer-card:nth-child(3) {
+        display: flex;
+    }
+    /* WHY OUR PRODUCT */
+    .product-wrapper>.container>img {
+        height: 100%;
+        width: 100%;
+    }
+    /* PERKS */
+    .perk-card {
+        display: flex;
+        align-items: center;
+    }
+    .perk-icon {
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+        margin: 0;
+    }
+    /* FOOTER */
+    .footer-content-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
